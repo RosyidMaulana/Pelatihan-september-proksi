@@ -8,11 +8,11 @@ if option == 1:
     l=int(input("Masukkan Lebar Balok :"))
     t=int(input("Masukkan Tinggi Balok :"))
     v=p*l*t
-    print("Ukuran Balok Anda Adalah :",v,"cm")
+    print("Ukuran Volume Balok Anda Adalah :",v,"cm")
 elif option==2:
     s=int(input("Masukkan Sisi Kubus :"))
     v=s**3
-    print("Ukuran Balok Anda Adalah :",v,"cm")
+    print("Ukuran Volume Kubus Anda Adalah :",v,"cm")
     
 else:
     print("Key Word Anda Salah! Silahkan Coba Run Lagi")
